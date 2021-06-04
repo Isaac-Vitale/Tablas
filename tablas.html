@@ -5,16 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tablas</title>
+    <style>
+        .dias{
+            background-color: rgb(241, 97, 31);
+            color: rgb(131, 36, 8);
+        }
+        .negrita{
+            font-weight: bold;
+            color: chocolate;
+            text-align: center;
+            background-color: rgb(255, 245, 108);
+        }
+        .uno{
+            background-color: coral;
+        }
+        .dos{
+            background-color: coral;
+        }
+        .tres{
+            background-color: rgb(241, 166, 104);
+        }
+        .cuatro{
+            background-color: rgb(241, 166, 104) ;
+        }
+        .cinco{
+            background-color: rgb(255, 190, 146);
+        }
+        .seis{
+            background-color: rgb(255, 190, 146);
+        }
+    </style>
 </head>
 <body>
     <table>
-        <caption> HORARIO DE CLASES 5° "C"</caption>
+        <caption> <u><b><span style="color: rgb(117, 18, 0); font-family: Verdana, Geneva, Tahoma, sans-serif;">HORARIO DE CLASES</span>  5° "C"</b></u></caption>
         <colgroup>
             <col span="1">
             <col span="1">
         </colgroup>
     <thead>
-        <tr>
+        <tr class="dias">
             <th></th>
             <th>LUNES</th>
             <th>MARTES</th>
@@ -24,21 +54,61 @@
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr class="uno">
             <td>8:15 - 8:35</td>
-            <td>Geografía </td>
+            <td colspan="1">Taller de sociales </td>
             <td>Lengua y Literatura</td>
-            <td>Base de Datos</td>
+            <td>Proyecto</td>
             <td>Inglés</td>
-            <td>Lenguaje de Programación</td>
+            <td>Proyecto</td>
+        </tr>
+        <tr class="dos">
+            <td>8:35 - 9:35</td>
+            <td style="color: rgb(138, 31, 13);"><b>Vidale</b> </td>
+            <td  style="color: rgb(138, 31, 13);"><b>Guglielmone</b></td>
+            <td>FO</td>
+            <td>"</td>
+            <td>FO</td>
         </tr>
         <tr>
-            <td>8:35 - 9:35</td>
-            <td>Geografía </td>
+            <td></td>
+            <td colspan="6" class="negrita"> RECREO </td>
+        </tr>
+        <tr class="tres">
+            <td>9:50 - 10:30</td>
+            <td>Taller de Naturales</td>
+            <td>Taller de Naturales</td>
+            <td style="color: rgb(143, 50, 13);"><b>Bogado</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Jater</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Gonzáles</b></td>
+        </tr>
+        <tr class="cuatro">
+            <td>10:30 - 11:10</td>
+            <td style="color: rgb(143, 50, 13);"><b>Velasco</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Velasco</b></td>
+            <td>Taller Sociales <span style="color: rgb(143, 50, 13);"><b>(Flaumer)</b></span></td>
+            <td>Taller Sociales <span style="color: rgb(143, 50, 13);"><b>(Gudiño)</b></span></td>
+            <td>Proyecto</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td colspan="6" class="negrita"> RECREO </td>
+        </tr>
+        <tr class="cinco">
+            <td>11:25 - 12:05</td>
+            <td>Matemática</td>
+            <td>Matemática</td>
             <td>Lengua y Literatura</td>
-            <td>Base de Datos</td>
-            <td>Inglés</td>
-            <td>Lenguaje de Programación</td>
+            <td>Proyecto FO</td>
+            <td>FO</td>
+        </tr>
+        <tr class="seis">
+            <td>12:05 - 12:45</td>
+            <td style="color: rgb(160, 60, 21);"><b>Monasterio</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Monasterio</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Guglielmone</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Moreno</b></td>
+            <td style="color: rgb(143, 50, 13);"><b>Gonzáles</b></td>
         </tr>
     </tbody>
     </table>
